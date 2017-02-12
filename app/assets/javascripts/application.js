@@ -16,3 +16,7 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+
+// listing vars here so they're in the global scope
+var cards, nCards, cover, openContent, openContentText, pageIsOpen = false,
+    openContentImage, closeContent, windowWidth, windowHeight, currentCard;
