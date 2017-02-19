@@ -449,25 +449,43 @@ border-radius: 0;
 
 
 
-
-
 /************************************************************
 *************************Footer******************************
 *************************************************************/
 
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
+
+.container0{
+  height: 100%;
+  position: relative;
+}
+
+.container1{
+  min-height: 100%;
+  position: relative;
+}
+// 将选择器加入layout文件的html和body里面，用于把footer固定在底部
+
 .footer1 {
-    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
-	padding-top: 40px;
-	padding-right: 0;
-	padding-bottom: 20px;
-	padding-left: 0;/*	border-top-width: 4px;
+    background: #337ab7 ;
+  bottom: 0px;
+  position: absolute;
+  min-height: 30px;
+  width: 100%;
+  // padding-top: 40px;
+  // padding-bottom: 10px;
+  /*	border-top-width: 4px;
 	border-top-style: solid;
 	border-top-color: #003;*/
 }
 
-
+// .footer-bottom {
+//     background-color: #337ab7 url("../images/footer/footer-bg.png") repeat scroll left top;
+//     min-height: 30px;
+//     width: 100%;
+//     bottom: 0px;
+// }
 
 .title-widget {
 	color: #898989;
@@ -573,11 +591,6 @@ border-radius: 0;
 
 
 
-.footer-bottom {
-    background-color: #337ab7;
-    min-height: 30px;
-    width: 100%;
-}
 .copyright {
     color: #fff;
     line-height: 30px;

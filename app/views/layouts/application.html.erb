@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="container0">
   <head>
     <title>Jdstore</title>
     <%= csrf_meta_tags %>
@@ -8,13 +8,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="container1">
     <div class="container-fluid">
       <div class="row">
         <%= render "common/navbar" %>
       </div>
-      <%= render "common/flashes" %>
-      <%= yield %>
+        <%= render "common/flashes" %>
+          <%= yield %>
+          <br><br><br>
     </div>
       <%= render "common/footer" %>
   </body>
