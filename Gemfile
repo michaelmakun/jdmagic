@@ -37,6 +37,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'rails-erd'
 gem 'figaro'
+gem 'fog-aws'
 
 group :production do
   gem 'pg'
