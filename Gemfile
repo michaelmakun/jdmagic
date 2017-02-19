@@ -38,6 +38,7 @@ gem 'mini_magick'
 gem 'rails-erd'
 gem 'letter_opener', group: :development
 gem 'aasm'
+gem 'figaro'
 
 group :production do
   gem 'pg'
