@@ -36,6 +36,7 @@ gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'rails-erd'
+gem  'letter_opener', group: :development
 
 group :production do
   gem 'pg'
